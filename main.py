@@ -49,15 +49,15 @@ if __name__ == "__main__":
 	#先拿票据
 	cookies = {}#初始化cookie
 	cookies = sign()
-
+	
 	#获取今天的日期
 	today = time.strftime("%Y-%m-%d", time.localtime())
 	todays = print(today)
 	for k in data:
 		if data[k] == "todaytimes":
 			data[k] = today
-
+	
 	#拿到票据后进行打卡
 	requests.post("http://www.huas.edu.cn:319/content/student/temp/zzdk?_t_s_=1643436248496",headers=headers,cookies=cookies,data=data)
-
+	
 	print(res.text)
