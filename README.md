@@ -42,6 +42,19 @@ operationType,操作类型(不用管)
 将字段中的汉字进行url编码再填如键值对中，其中"dkdz"、"jzdDz"、"jzdDz2"和"bz"一定要使用中文，否则无法正常显示  
 :)
 
+## 云函数部署
+### 1.创建云函数
+![Serverless1](/images/Serverless1.jpg?raw=true "Serverless1")
+### 2.将修改后的代码复制进去
+![Serverless2](/images/Serverless2.jpg?raw=true "Serverless2")
+### 3.将执行超时时间改大
+![Serverless3](/images/Serverless3.jpg?raw=true "Serverless3")
+### 4.设置定时触发时间，具体查看云函数配置文档
+![Serverless4](/images/Serverless4.jpg?raw=true "Serverless4")
+### 5.本地调试，打卡成功后会返回
+{"errorInfoList":[],"result":true,"msg":null}  
+![Good](/images/Good.jpg?raw=true "Good")
+
 # MIT License
 
 Copyright (c) 2022 Александр Свобода
