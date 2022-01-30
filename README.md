@@ -24,7 +24,21 @@
 - 45行填写下面的信息
 
 ## key
-dkdz,打卡地点，dkly,打卡地点来源，dkd,自己填写的地址，jzdValue,区号，，jzdSheng.dm,省代码，jzdShi.dm市代码，jzdXian.dm,县代码，jzdDz,家庭地址，jzdDz2,家庭地址2，lxdh,手机号，sfzx1,在校状态，fbrq,fxrq打卡日期，bz,备注，operationType,操作类型
+**dkdz**，API定位地点,通过IP路由进行地址确认，不精准随便填一个家附近的地址就可以了(要改)
+**dkd**,打卡地点(要改)
+**dkly**,打卡地点来源(要改)
+**dkd**,自己填写的地址(要改)
+**jzdValue**,区号(省代码%2c市代码%2c县代码)
+**jzdSheng.dm**,省代码(要改)
+**jzdShi.dm**,市代码(要改)
+**zdXian.dm**,县代码(要改)
+**jzdDz**,家庭地址(要填)
+**jzdDz2**,家庭地址2(要填)
+**lxdh**,手机号(要填)
+**sfzx1**,在校状态(不在校默认就可以)
+**fbrq,fxrq**打卡日期(这里有两个字段要填写)
+**bz**,备注(没有额外备注删除即可)
+operationType,操作类型(不用管)
 
 将字段中的汉字进行url编码再填如键值对中，其中"dkdz"、"jzdDz"、"jzdDz2"和"bz"一定要使用中文，否则无法正常显示  
 :)
