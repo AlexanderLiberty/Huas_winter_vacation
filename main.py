@@ -57,7 +57,10 @@ if __name__ == "__main__":
 		if data[k] == "todaytimes":
 			data[k] = today
 	
+	times_s = {'_t_s_':''}
+	time_stamp = time.time()
+	times_s['_t_s_'] = int(round(time_stamp * 1000))
 	#拿到票据后进行打卡
-	requests.post("http://www.huas.edu.cn:319/content/student/temp/zzdk?_t_s_=1643436248496",headers=headers,cookies=cookies,data=data)
+	requests.post("http://www.huas.edu.cn:319/content/student/temp/zzdk",params=times_s,headers=headers,cookies=cookies,data=data)
 	
 	print(res.text)
