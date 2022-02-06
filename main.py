@@ -12,7 +12,7 @@ import time
 
 #没有票据，注意两个值的变量，//Referer、Cookie
 headers = {'Host': 'www.huas.edu.cn:319',
-'User-Agent': 'Mozilla/5.0 (Linux; Android 11; SAMSUNG SM-G973U) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/14.2 Chrome/87.0.4280.141 Mobile Safari/537.36',
+'User-Agent': 'Mozilla/5.0 (Android 7.0; Mobile; rv:54.0) Gecko/54.0 Firefox/54.0',
 'Accept': 'application/json, text/javascript, */*; q=0.01',
 'Accept-Language': 'en-US,en;q=0.5',
 'Accept-Encoding': 'gzip, deflate',
